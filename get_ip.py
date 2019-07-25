@@ -5,7 +5,6 @@ import time
 import os
 
 #cd work dir
-os.system("cd /home/pi/Documents/github-pi/pi")
 response = requests.get("http://ip-api.com/json")
 ip_json = json.loads(response.text)
 for line in open("/home/pi/Documents/github-pi/pi/address.txt"):
