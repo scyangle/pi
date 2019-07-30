@@ -1,6 +1,7 @@
 # coding=utf-8
 
 from requests import get
+from datetime import date
 import matplotlib
 
 matplotlib.use("Pdf")
@@ -48,7 +49,11 @@ plt.savefig("weather.png")
 # plt.show()
 
 # today
-today = result["data"]["forecast"][0]
+day_num = date.today().day
+
+for item in result["data"]["forecast"]:
+    if int(item["date"]) == day_num:
+        today = item
 
 # send email
 sender = "scyangle1314@126.com"
