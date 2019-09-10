@@ -1,14 +1,24 @@
-# /usr/bin/python
 # coding=utf-8
+import numpy as np
 
 import matplotlib.pylab as pb
-import numpy as np
 
 x = np.linspace(1, 50, num=50)
 
-y = 2 * x + 1
+y1 = 2 * x + 1
+y2 = x ** 2
 
-pb.plot(x, y)
+pb.figure()
+pb.plot(x, y1)
+# pb.savefig("./pb.pdf")
 # pb.show()
-pb.savefig("./pb.pdf")
+
+pb.figure()
+pb.plot(x, y1, )
+pb.plot(x, y2, color='green', linestyle="--")
+pb.xlim(1, 40)
+pb.ylabel(u"y(number)")
+pb.xlabel(u"x(number)")
+pb.xticks([10, 20])
+pb.yticks([100, 400], [r"$low$", r"$middle$"])
 pb.show()
