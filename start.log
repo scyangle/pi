@@ -1,2 +1,16 @@
 
 Date:2019-10-17 22:56:03 ip:123.115.83.244
+[master db566e7] 2019-10-17 22:58:03 ip update
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To github.com:scyangle/pi.git
+   8abfcb5..db566e7  master -> master
+位于分支 master
+您的分支与上游分支 'origin/master' 一致。
+尚未暂存以备提交的变更：
+	修改：     start.log
+
+修改尚未加入提交
+Everything up-to-date
+need change the ip
+need change the ip
+Date:2019-10-17 22:58:16 ip:123.115.83.244
