@@ -1,3 +1,26 @@
 
 Date:2019-10-17 22:40:03 ip:123.115.83.244
 Date:2019-10-17 22:42:03 ip:123.115.83.244
+Date:2019-10-17 22:44:03 ip:123.115.83.244
+已经是最新的。
+位于分支 master
+您的分支与上游分支 'origin/master' 一致。
+尚未暂存以备提交的变更：
+	修改：     start.log
+
+修改尚未加入提交
+Everything up-to-date
+已经是最新的。
+位于分支 master
+您的分支与上游分支 'origin/master' 一致。
+尚未暂存以备提交的变更：
+	修改：     start.log
+
+未跟踪的文件:
+	.get_ip.py.swp
+
+修改尚未加入提交
+Everything up-to-date
+need change the ip
+need change the ip
+Date:2019-10-17 22:46:23 ip:123.115.83.244
