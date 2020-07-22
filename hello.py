@@ -1,2 +1,2 @@
 # coding=UTF-8
-print "hello 123"
+print "hello today"
